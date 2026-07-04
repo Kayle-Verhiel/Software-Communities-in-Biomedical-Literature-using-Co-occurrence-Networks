@@ -1,0 +1,17 @@
+numpy
+pandas
+matplotlib
+network
+ipykernel
+tqdm
+igraph
+plotly
+joblib
+leidenalg
+scikit-learn
+clustering-mi
+pyvis
+
+
+requests 
+Beautifulsoup4
