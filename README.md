@@ -30,6 +30,9 @@ The notebooks assume that the dataset files are stored in a folder `data` that s
 - `data`
   - `classification_openalex_2025`
     - clustering.tsv
+    - main_field.tsv
+    - macro_cluster_main_field.tsv
+    - micro_cluster.tsv
   - `software_mentions`
     - `disambiguated`
       - comm_disambiguated.tsv.gz
