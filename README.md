@@ -18,3 +18,31 @@ python -m venv venv
 # install the necessary pacakges
 pip install -r requirements.txt
 ```
+
+# Data acquisition
+
+Required packages and directory specifications.
+This paper used the software mentions extracted from a PMC OA commercial subset of the CZ Software Mentions dataset developed by the Chan Zuckerberg Initiative (CZI) (Updated Sep 27, 2022) [1] which are subsequently classified using the work from [2] who built a dataset from 71 million resources from various academic origin (acessible from Zenondo (version 2025aug Oct 29) [3]).
+
+The notebooks assume that the dataset files are stored in a folder `data` that sits as the same level as the `notebooks` directory. The assumed directory structure is the following:
+
+- `notebooks`
+- `data`
+  - `classification_openalex_2025`
+    - clustering.tsv
+  - `software_mentions`
+    - `disambiguated`
+      - comm_disambiguated.tsv.gz
+
+# References
+
+[1] A. - M. Istrate, B. Veytsman, D. Li et al. CZ Software Mentions: A large dataset of
+software mentions in the biomedical literature. Dataset. 2022. doi: 10.5061/dryad.
+6wwpzgn2c. github_url: https://github.com/chanzuckerberg/software-mentions?tab=readme-ov-file. url: https://datadryad.org/dataset/doi:10.5061/dryad.6wwpzgn2c.
+
+[2] N. J. Van Eck and L. Waltman. An open approach for classifying research publications.
+Jan. 2024. doi: 10.59350/qc0px-76778. url: https://www.leidenmadtrics.nl/articles/an-open-approach-for-classifying-research-publications. dataset_url:
+
+[3] N. J. Van Eck. Classification of research publications based on data from OpenAlex.
+Version 2025aug. Aug. 2025. doi: 10.5281/zenodo.17442025. url: https://doi.org/10.
+5281/zenodo.17442025
