@@ -15,14 +15,14 @@ the CZ Software Mentions dataset were classified classified into disciplines usi
 # setup the virtual environment
 python -m venv venv
 
-# install the necessary pacakges
+# install the necessary packages
 pip install -r requirements.txt
 ```
 
 # Data acquisition
 
 Required packages and directory specifications.
-This paper used the software mentions extracted from a PMC OA commercial subset of the CZ Software Mentions dataset developed by the Chan Zuckerberg Initiative (CZI) (Updated Sep 27, 2022) [1] which are subsequently classified using the work from [2] who built a dataset from 71 million resources from various academic origin (acessible from Zenondo (version 2025aug Oct 29) [3]).
+This paper used the software mentions extracted from a PMC OA commercial subset of the CZ Software Mentions dataset developed by the Chan Zuckerberg Initiative (CZI) (Updated Sep 27, 2022) [1] which were subsequently classified using the work from [2] who built a dataset from 71 million resources from various academic origin (acessible from Zenondo (version 2025aug Oct 29) [3]).
 
 The notebooks assume that the dataset files are stored in a folder `data` that sits as the same level as the `notebooks` directory. The assumed directory structure is the following:
 
